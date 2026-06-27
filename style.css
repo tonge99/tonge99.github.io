@@ -1,13 +1,18 @@
 body {
-  background-color: #1a1a1f; /* soft dark grey */
-  color: #f2f2f2; /* soft white */
+  background-color: #1a1a1f;
+  color: #f2f2f2;
   font-family: monospace;
   margin: 60px;
-  line-height: 1.6;
+  line-height: 1.8;
+  font-size: 18px; /* 👈 BIGGER TEXT */
+}
+
+.container {
+  max-width: 750px;
 }
 
 a {
-  color: #cfcfcf;
+  color: #d6d6d6;
   text-decoration: underline;
 }
 
@@ -15,20 +20,18 @@ a:hover {
   color: white;
 }
 
-.container {
-  max-width: 700px;
-}
-
-.glitch {
-  opacity: 0.9;
-  letter-spacing: 0.5px;
-}
-
 .small {
-  font-size: 12px;
-  opacity: 0.6;
+  font-size: 14px;
+  opacity: 0.65;
 }
 
-.faint {
-  opacity: 0.4;
+h1, h2 {
+  font-weight: normal;
+}
+
+pre {
+  background: #111118;
+  padding: 12px;
+  overflow-x: auto;
+  border-left: 2px solid #444;
 }
