@@ -1,0 +1,34 @@
+body {
+  background-color: #1a1a1f; /* soft dark grey */
+  color: #f2f2f2; /* soft white */
+  font-family: monospace;
+  margin: 60px;
+  line-height: 1.6;
+}
+
+a {
+  color: #cfcfcf;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  max-width: 700px;
+}
+
+.glitch {
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
+.small {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.faint {
+  opacity: 0.4;
+}
