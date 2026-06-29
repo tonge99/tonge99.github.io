@@ -1,50 +1,74 @@
 body {
-    background-color: #1a1a1a;
-    color: #FFDBFD;
+    background: radial-gradient(circle at top, #1a1433, #0b0b18);
+    color: #c9beff;
     font-family: monospace;
     margin: 0;
     padding: 0;
 }
 
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    line-height: 1.75;
+}
+
+/* MAIN TITLE TEXT */
+h1 {
+    color: #8494ff;
+    text-shadow: 0 0 8px rgba(100, 110, 255, 0.35);
+}
+
+/* SMALL META TEXT */
 .small {
-    color: #C9BEFF;
-    font-size: 13px;
-    margin-bottom: 10px;
+    color: #6f6aa8;
 }
 
+/* DATE TEXT */
 .date {
-    color: #8494FF;
-    font-size: 14px;
-    margin-bottom: 40px;
+    color: #a89cff;
 }
 
+/* PARAGRAPHS */
+p {
+    font-size: 17px;
+}
+
+/* LINKS (IMPORTANT FOR THE "BLUECIRCLE FEEL") */
 a {
-    color: #6367FF;
+    color: #6367ff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #8494FF;
-    text-decoration: underline;
+    color: #ffdbfd;
+    text-shadow: 0 0 6px rgba(99, 103, 255, 0.6);
 }
 
-pre {
-    background-color: #23233a;
-    border: 1px solid #6367FF;
-    padding: 15px;
-    overflow-x: auto;
-}
-
+/* IMAGES */
 img {
     display: block;
     max-width: 100%;
     margin: 30px auto;
-    border: 1px solid #8494FF;
+    border: 1px solid #6367ff;
+    box-shadow: 0 0 12px rgba(99, 103, 255, 0.15);
 }
 
+/* JSON BLOCKS */
+pre {
+    background-color: rgba(10, 10, 25, 0.7);
+    border: 1px solid #6367ff;
+    padding: 15px;
+    overflow-x: auto;
+    color: #c9beff;
+}
+
+/* FOOTER */
 .footer {
-    margin-top: 80px;
     text-align: center;
-    color: #C9BEFF;
+    margin-top: 80px;
     font-size: 12px;
+    color: #6f6aa8;
 }
