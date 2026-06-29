@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>004</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<p class="small">entry 003</p>
+
+<h2>DEVLOG 004</h2>
+
+<p>alright. im back everyone    (June, 29, 2026)</p>
+
+<p>right now, its 4:12AM, i haven't slept at all. But it's all for good reason, trust and believe. I finally fixed the cool ass walking feature, but I forgot collision in ver.45</p>
+
+<p>BUT collision was never a hassle for me, Surprisingly this time it was. I made a collision mask rather than giving every individual object it's own collision mask, and then I put a collision check in Vino's step event. (vino is the player)</p>
+
+<p>however there was an issue with depth and layering. So I ignored the layering part of designing and went and made a depth check object instead, which is a parent object. as long as I set this children as the decoration objects...</p>
+
+<p>it layers them accordingly! Hurray! But, in the previous version, I had no issue with depth and layering since every object was under a collision parent tool rather than having an invisible wall placed over it. The more you know/learn!</p>
+
+<p>Goodness, I'm so tired I've started writing like an old man...Where is typo tonge? Who knows...He'll be back...when he gets some sleep.</p>
+
+<p>I'm debating whether I go to sleep or I learn how to add in Images...Another thing! The rooms are FULLY fleshed out-- I have two whole rooms now! Soon I will make the whole region and add in the music. All in 2 days work!</p>
+
+<p>I'm considering making another track, an ambient track for the starting rooms. But we will decide on that when I...sleep. I've made more tiles than I can count! It's impressive how fast I work. So I will pat myself on the back for that.</p>
+
+<p>The camera has been fixed, The collision and layering/depth has been fixed...I'm super proud of myself! I've done so much trail and erroring today. It's kinda made me less upset when I run into issues, I'll work around it eventually.</p>
+
+<p>Well, that is all. Very very...good today. Next I will hopefully:</p>
+
+<pre>
+1. Create another room...
+2. Create Instance Warp 
+3. Interactive Objects
+4. Effects for lighting + other items.
+</pre>
+
+<p>Sounds like a lot, but you'd be impressed with how easily I can get those done!!! Not to sound cocky of course, I have my flaws-- but what I am trying to say it, I work impressively fast ^w^</p>
+
+<p>I was right in the end,, 003, predicting myself before I even gave myself a chance! I haven't slept, but now... It's 4:22am and I need to get up at 6-7am just to get back to work again!</p>
+<p>How is that sleep schedule looking, tonge? HEAGAEHGAHEGAHGHAEGHAEG</p>
+
+<pre>
+
+  mood: satisfied
+  currently listening to: "everyone's asleep, except you... (omori music w/ gentle rain) - Sleepy Frisk"
+  <p class="small">hey... don't judge, ok?</p>
+  hours_of_sleep: not sure, let's find out...
+
+</pre>
+
+<br>
+
+<a href="003.html">← back</a>
+<span> | </span>
+<a href="index.html">home</a>
+<span> | </span>
+<a href="005.html">next →</a>
+
+</div>
+
+</body>
+</html>
