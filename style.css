@@ -1,8 +1,9 @@
 body {
-   body {
-    background: black !important;
-    color: red !important;
-}
+    background: radial-gradient(circle at top, #1a1433, #0b0b18);
+    color: #c9beff;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -14,28 +15,23 @@ body {
     line-height: 1.75;
 }
 
-/* MAIN TITLE TEXT */
 h1 {
     color: #8494ff;
     text-shadow: 0 0 8px rgba(100, 110, 255, 0.35);
 }
 
-/* SMALL META TEXT */
 .small {
     color: #6f6aa8;
 }
 
-/* DATE TEXT */
 .date {
     color: #a89cff;
 }
 
-/* PARAGRAPHS */
 p {
     font-size: 17px;
 }
 
-/* LINKS (IMPORTANT FOR THE "BLUECIRCLE FEEL") */
 a {
     color: #6367ff;
     text-decoration: none;
@@ -46,7 +42,6 @@ a:hover {
     text-shadow: 0 0 6px rgba(99, 103, 255, 0.6);
 }
 
-/* IMAGES */
 img {
     display: block;
     max-width: 100%;
@@ -55,7 +50,6 @@ img {
     box-shadow: 0 0 12px rgba(99, 103, 255, 0.15);
 }
 
-/* JSON BLOCKS */
 pre {
     background-color: rgba(10, 10, 25, 0.7);
     border: 1px solid #6367ff;
@@ -64,7 +58,6 @@ pre {
     color: #c9beff;
 }
 
-/* FOOTER */
 .footer {
     text-align: center;
     margin-top: 80px;
