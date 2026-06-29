@@ -1,7 +1,7 @@
 body {
     background: radial-gradient(circle at top, #1a1433, #0b0b18);
     color: #c9beff;
-    font-family: monospace;
+    font-family: Georgia, serif;
     margin: 0;
     padding: 0;
 }
